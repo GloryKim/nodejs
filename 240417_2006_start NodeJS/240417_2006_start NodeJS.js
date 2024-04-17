@@ -1,0 +1,4 @@
+- 자바스크립트 개발자가 가져야할 DNS와 HTTP 같은 기초적인 백엔드 지식 제공 예정
+- Nodejs, 전통의 강자 express, NestJS, db활용, 인증, 비동기 처리, 웹소켓 전송 설명예정
+- 자바, 코틀린의 Spring, 파이썬의 장고 or 플라스크, Go lang의 GIN, C#의 .NET Framework, Javascript의 Node.JS(express, NestJS)중 Node 위주로 설명 예정
+- image 참고
