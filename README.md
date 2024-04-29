@@ -11,6 +11,6 @@ Keypoint nodejs
 
 240426_1317_glory : 백엔드 내용 추가 작성 진행 및 파일 명 변경
 
-240429_1953_glory : node에서 smpl 서버에 파일 전송 구문
+240429_1953_glory : node에서 smpl 서버에 파일 송수신하는 구문
 
-240429_1957_glory : 
+240429_1957_glory : node에서 staf 서버에 파일 송수신하는 구문
