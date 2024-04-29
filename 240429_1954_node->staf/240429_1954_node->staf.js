@@ -113,3 +113,78 @@ const PORT = process.env.PORT || 7283;
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
+
+//240429_1954_glory : html 구문 추가
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webcam Timed Image Capture with Random Folders</title>
+
+    새로
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #video {
+            border: 2px solid black;
+        }
+        #status {
+            margin-top: 10px;
+        }
+        #imageContainer {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        #imageContainer img {
+            margin: 10px;
+            width: 100px; /* 이미지 크기는 필요에 따라 조정 */
+            height: 100px; /* 이미지 크기는 필요에 따라 조정 */
+        }
+    </style>
+</head>
+<body>
+
+        <video id="video" width="640" height="480" autoplay playsinline></video>
+        <button id="captureButton">촬영 시작</button>
+        <div id="imageContainer"></div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="app.js"></script>
+    
+        <!-- 이미지 업로드 및 비디오 변환 폼 -->
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/jpeg,image/png,image/webp" required>
+            <label><input type="radio" name="gender" value="male" checked> 남성</label>
+            <label><input type="radio" name="gender" value="female"> 여성</label>
+            <label><input type="radio" name="gender" value="neutral"> 중성</label>
+            <button type="button" onclick="uploadAndConvert()">Upload and Convert</button>
+        </form>
+    
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+        function uploadAndConvert() {
+            const formData = new FormData(document.getElementById('uploadForm'));
+            axios.post('/upload-and-convert', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            })
+            .then(response => alert('Video created and uploaded successfully.'))
+            .catch(error => alert('Error: ' + error.response.data));
+        }
+        </script>
+
+
+
+
+</body>
+</html>
+
+```

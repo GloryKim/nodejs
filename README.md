@@ -14,3 +14,5 @@ Keypoint nodejs
 240429_1953_glory : node에서 smpl 서버에 파일 송수신하는 구문
 
 240429_1957_glory : node에서 staf 서버에 파일 송수신하는 구문
+
+240429_2000_glory : node에서 staf 서버에 파일 송수신하는 구문 + html 구문 추가
