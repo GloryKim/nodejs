@@ -16,3 +16,5 @@ Keypoint nodejs
 240429_1957_glory : node에서 staf 서버에 파일 송수신하는 구문
 
 240429_2000_glory : node에서 staf 서버에 파일 송수신하는 구문 + html 구문 추가
+
+240430_1040_glory : node에서 llama 모델을 활용해 llm 추론결과 js로 배포하는 방법
