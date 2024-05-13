@@ -20,3 +20,5 @@ Keypoint nodejs
 240430_1040_glory : node에서 llama 모델을 활용해 llm 추론결과 js로 배포하는 방법
 
 240502_1657_glory : 백엔드 개발 문서 재 수정
+
+240513_1146_glory : rosbag play -l all.bag을 통해 실행중인 토픽들 중 특정 토픽 내용 읽는 방법
