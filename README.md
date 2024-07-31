@@ -26,3 +26,5 @@ Keypoint nodejs
 240531_1653_glory : 서로 다른 망에 물린 PC 두개중 한개의 공유기의 포트포워딩으로 서로 데이터를 송수신 하는 방법론
 
 240702_1731_glory : 서로다른 단말기들끼리 위치정보 데이터 송수신 하는 방법
+
+240731_1654_glory : server(AIserver)에서 client(webserver)에 gpu 자원값 보내는 방법 (통상 60w 이상일 경우 inference 중임) [[Youtube]](https://www.youtube.com/watch?v=gHJfXFF0_mg)
