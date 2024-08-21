@@ -28,3 +28,5 @@ Keypoint nodejs
 240702_1731_glory : 서로다른 단말기들끼리 위치정보 데이터 송수신 하는 방법
 
 240731_1654_glory : server(AIserver)에서 client(webserver)에 gpu 자원값 보내는 방법 (통상 60w 이상일 경우 inference 중임) [[Youtube]](https://www.youtube.com/watch?v=gHJfXFF0_mg)
+
+240821_1718_glory : SQLlite+node 프로젝트 생성, 간단한 DB를 구축해서 텍스트 자료 저장하는 서버
